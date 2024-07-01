@@ -5,12 +5,12 @@ CONFIG_NAME: testnet # needs to exist because of Prysm. Otherwise it conflicts w
 # Genesis
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
-MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 320
+MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
 MIN_GENESIS_TIME: 0
 GENESIS_FORK_VERSION: 0x10000000
-GENESIS_DELAY: 60
+GENESIS_DELAY: 600
 
 
 # Forking
@@ -39,18 +39,18 @@ DENEB_FORK_EPOCH: 0
 
 # Electra
 ELECTRA_FORK_VERSION: 0x60000000
-ELECTRA_FORK_EPOCH: 2000
+ELECTRA_FORK_EPOCH: 0
 
 # EIP7594 - Peerdas
 EIP7594_FORK_VERSION: 0x70000000
-EIP7594_FORK_EPOCH: 99999
+EIP7594_FORK_EPOCH: 0
 
 # Time parameters
 # ---------------------------------------------------------------
 # 12 seconds
-SECONDS_PER_SLOT: 12
+SECONDS_PER_SLOT: 2
 # 14 (estimate from Eth1 mainnet)
-SECONDS_PER_ETH1_BLOCK: 12
+SECONDS_PER_ETH1_BLOCK: 2
 # 2**8 (= 256) epochs ~27 hours
 MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
 # 2**8 (= 256) epochs ~27 hours
@@ -86,8 +86,8 @@ REORG_MAX_EPOCHS_SINCE_FINALIZATION: 2
 
 # Deposit contract
 # ---------------------------------------------------------------
-DEPOSIT_CHAIN_ID: 1337
-DEPOSIT_NETWORK_ID: 1337
+DEPOSIT_CHAIN_ID: 9496
+DEPOSIT_NETWORK_ID: 9496
 DEPOSIT_CONTRACT_ADDRESS: 0x4242424242424242424242424242424242424242
 
 # Networking

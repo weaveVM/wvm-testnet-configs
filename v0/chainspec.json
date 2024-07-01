@@ -9,7 +9,7 @@
     "accountStartNonce": "0x0",
     "maximumExtraDataSize": "0xffff",
     "minGasLimit": "0x1388",
-    "networkID": "0x539",
+    "networkID": "0x2518",
     "MergeForkIdTransition": "0x0",
     "maxCodeSize": "0x6000",
     "maxCodeSizeTransition": "0x0",
@@ -52,11 +52,11 @@
     "eip5656TransitionTimestamp": "0x0",
     "eip6780TransitionTimestamp": "0x0",
     "depositContractAddress": "0x4242424242424242424242424242424242424242",
-    "eip2537TransitionTimestamp": "0xbb83c",
-    "eip2935TransitionTimestamp": "0xbb83c",
-    "eip3074TransitionTimestamp": "0xbb83c",
-    "eip6110TransitionTimestamp": "0xbb83c",
-    "eip7002TransitionTimestamp": "0xbb83c"
+    "eip2537TransitionTimestamp": "0x258",
+    "eip2935TransitionTimestamp": "0x258",
+    "eip3074TransitionTimestamp": "0x258",
+    "eip6110TransitionTimestamp": "0x258",
+    "eip7002TransitionTimestamp": "0x258"
   },
   "genesis": {
     "seal": {
