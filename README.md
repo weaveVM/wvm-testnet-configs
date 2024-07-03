@@ -1,1 +1,0 @@
-# wvm-testnet-configs
