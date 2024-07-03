@@ -14,10 +14,10 @@
     "mergeNetsplitBlock": 0,
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
-    "shanghaiTime": 0,
-    "cancunTime": 0,
+    "shanghaiTime": 1720044322,
+    "cancunTime": 1720044323,
     "depositContractAddress": "0x4242424242424242424242424242424242424242",
-    "pragueTime": 1720026023
+    "pragueTime": 1720044324
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
@@ -914,5 +914,5 @@
   "nonce": "0x1234",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "timestamp": "1720026022"
+  "timestamp": "0x6685CB22"
 }
