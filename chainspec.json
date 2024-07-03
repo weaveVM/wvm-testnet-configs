@@ -52,11 +52,11 @@
     "eip5656TransitionTimestamp": "0x0",
     "eip6780TransitionTimestamp": "0x0",
     "depositContractAddress": "0x4242424242424242424242424242424242424242",
-    "eip2537TransitionTimestamp": "0x668583a6",
-    "eip2935TransitionTimestamp": "0x668583a6",
-    "eip3074TransitionTimestamp": "0x668583a6",
-    "eip6110TransitionTimestamp": "0x668583a6",
-    "eip7002TransitionTimestamp": "0x668583a6"
+    "eip2537TransitionTimestamp": "0x668583a7",
+    "eip2935TransitionTimestamp": "0x668583a7",
+    "eip3074TransitionTimestamp": "0x668583a7",
+    "eip6110TransitionTimestamp": "0x668583a7",
+    "eip7002TransitionTimestamp": "0x668583a7"
   },
   "genesis": {
     "seal": {
