@@ -1,31 +1,11 @@
-# Mainnet config
 
-# Extends the mainnet preset
 PRESET_BASE: 'mainnet'
-
-# Free-form short name of the network that this configuration applies to - known
-# canonical network names include:
-# * 'mainnet' - there can be only one
-# * 'prater' - testnet
-# Must match the regex: [a-z0-9\-]
 CONFIG_NAME: 'wvmtestnet'
 
-
-TERMINAL_TOTAL_DIFFICULTY: 0
-TERMINAL_BLOCK_HASH: 0xbcaa1b937b963f7beb54d707edf442b788e93ec72a3d56c4dee5663d968bfdb7
-TERMINAL_BLOCK_HASH_ACTIVATION_EPOCH: 18446744073709551615
-
-# Genesis
-# ---------------------------------------------------------------
-# `2**14` (= 16,384)
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
-
 MIN_GENESIS_TIME: 1720090822
-# Mainnet initial fork version, recommend altering for testnets
-GENESIS_FORK_VERSION: 0x00000000
-# 300 seconds
+GENESIS_FORK_VERSION: 0x10000000
 GENESIS_DELAY: 300
-
 
 # Forking
 # ---------------------------------------------------------------
@@ -34,26 +14,21 @@ GENESIS_DELAY: 300
 #  - Temporarily set to max uint64 value: 2**64 - 1
 
 # Altair
-ALTAIR_FORK_VERSION: 0x01000000
+ALTAIR_FORK_VERSION: 0x20000000
 ALTAIR_FORK_EPOCH: 0 
 # Bellatrix
-BELLATRIX_FORK_VERSION: 0x02000000
+BELLATRIX_FORK_VERSION: 0x30000000
 BELLATRIX_FORK_EPOCH: 0  
+TERMINAL_TOTAL_DIFFICULTY: 0
+TERMINAL_BLOCK_HASH: 0xbcaa1b937b963f7beb54d707edf442b788e93ec72a3d56c4dee5663d968bfdb7
+TERMINAL_BLOCK_HASH_ACTIVATION_EPOCH: 18446744073709551615
+
 # Capella
-CAPELLA_FORK_VERSION: 0x03000000
+CAPELLA_FORK_VERSION: 0x40000000
 CAPELLA_FORK_EPOCH: 0  # April 12, 2023, 10:27:35pm UTC
 # Deneb
-DENEB_FORK_VERSION: 0x04000000
+DENEB_FORK_VERSION: 0x50000000
 DENEB_FORK_EPOCH: 0  # March 13, 2024, 01:55:35pm UTC
-# Electra
-ELECTRA_FORK_VERSION: 0x05000000
-ELECTRA_FORK_EPOCH: 18446744073709551615  # temporary stub
-# EIP7594
-EIP7594_FORK_VERSION: 0x06000000  # temporary stub
-EIP7594_FORK_EPOCH: 18446744073709551615
-# WHISK
-WHISK_FORK_VERSION: 0x08000000  # temporary stub
-WHISK_FORK_EPOCH: 18446744073709551615
 
 # Time parameters
 # ---------------------------------------------------------------
@@ -66,7 +41,7 @@ MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
 # 2**8 (= 256) epochs ~?
 SHARD_COMMITTEE_PERIOD: 256
 # 2**11 (= 2,048) Eth1 blocks ~?
-ETH1_FOLLOW_DISTANCE: 2048
+ETH1_FOLLOW_DISTANCE: 128
 
 
 # Validator cycle
@@ -101,7 +76,7 @@ REORG_MAX_EPOCHS_SINCE_FINALIZATION: 2
 # Ethereum PoW Mainnet
 DEPOSIT_CHAIN_ID: 9496
 DEPOSIT_NETWORK_ID: 9496
-DEPOSIT_CONTRACT_ADDRESS: 0x00000000219ab540356cBB839Cbe05303d7705Fa
+DEPOSIT_CONTRACT_ADDRESS: 0x4242424242424242424242424242424242424242
 
 
 # Networking
