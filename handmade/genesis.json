@@ -15,9 +15,9 @@
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
     "shanghaiTime": 0,
-    "cancunTime": 1720118100,
+    "cancunTime": 1720119900,
     "depositContractAddress": "0x4242424242424242424242424242424242424242",
-    "pragueTime": 1720118101
+    "pragueTime": 1720119901
   },
   "alloc": {
     "0x4242424242424242424242424242424242424242": {
@@ -146,7 +146,7 @@
   "nonce": "0x1234",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "timestamp": "0x6686EB54",
+  "timestamp": "0x6686F25C",
 	"number": "0x0",
 	"gasUsed": "0x0",
 	"baseFeePerGas": null,
