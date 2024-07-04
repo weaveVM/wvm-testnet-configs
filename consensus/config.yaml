@@ -1,4 +1,3 @@
-
 PRESET_BASE: 'mainnet'
 CONFIG_NAME: 'wvmtestnet'
 
@@ -6,6 +5,7 @@ MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
 MIN_GENESIS_TIME: 1720090822
 GENESIS_FORK_VERSION: 0x10000000
 GENESIS_DELAY: 300
+
 
 # Forking
 # ---------------------------------------------------------------
@@ -29,6 +29,12 @@ CAPELLA_FORK_EPOCH: 0  # April 12, 2023, 10:27:35pm UTC
 # Deneb
 DENEB_FORK_VERSION: 0x50000000
 DENEB_FORK_EPOCH: 0  # March 13, 2024, 01:55:35pm UTC
+# Electra
+ELECTRA_FORK_VERSION: 0x60000000
+ELECTRA_FORK_EPOCH: 18446744073709551615  # temporary stub
+# EIP7594
+EIP7594_FORK_VERSION: 0x70000000
+EIP7594_FORK_EPOCH: 18446744073709551615
 
 # Time parameters
 # ---------------------------------------------------------------
