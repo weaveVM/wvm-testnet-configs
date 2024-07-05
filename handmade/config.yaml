@@ -10,7 +10,7 @@ MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
 # This is an invalid valid and should be updated when you create the genesis
 MIN_GENESIS_TIME: 1720203611
 GENESIS_FORK_VERSION: 0x10000000
-GENESIS_DELAY: 300
+GENESIS_DELAY: 32
 
 
 # Forking
