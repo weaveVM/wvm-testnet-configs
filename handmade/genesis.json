@@ -14,8 +14,8 @@
     "mergeNetsplitBlock": 0,
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
-    "shanghaiTime": 1720201264,
-    "cancunTime": 1720201265,
+    "shanghaiTime": 1720202164,
+    "cancunTime": 1720202165,
     "depositContractAddress": "0x4242424242424242424242424242424242424242"
   },
   "alloc": {
