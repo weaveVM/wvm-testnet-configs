@@ -4,7 +4,7 @@ set -Eeuo pipefail
 
 # Constants for mainnet preset
 SLOT_PER_EPOCH=32
-SECONDS_PER_SLOT=12
+SECONDS_PER_SLOT=2
 
 # Define the fork epochs (replace these with your actual values)
 CAPELLA_FORK_EPOCH=1
