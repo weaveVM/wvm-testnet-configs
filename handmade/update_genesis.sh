@@ -35,6 +35,7 @@ echo "cancun_time=$CANCUN_TIME"
 sed -i '' 's/"cancunTime".*$/\"cancunTime\": '"$CANCUN_TIME"',/' $genesis_file
 
 # Regenerate genesis.ssz with updated timestamp values
+rm genesis.ssz
 eth2-testnet-genesis merge \
   --config "./$config_file" \
   --eth1-config "./$genesis_file" \
