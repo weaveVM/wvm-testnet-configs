@@ -1,7 +1,3 @@
-#!/usr/bin/env bash
-
-set -Eeuo pipefail
-
 # Constants for mainnet preset
 SLOT_PER_EPOCH=32
 SECONDS_PER_SLOT=2
