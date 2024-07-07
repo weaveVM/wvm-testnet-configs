@@ -21,7 +21,7 @@ sed -i '' 's/"timestamp":.*$/"timestamp": "'"$CURRENT_TIMESTAMP_HEX"'",/' $genes
 sed -i '' 's/MIN_GENESIS_TIME:.*/MIN_GENESIS_TIME: '"$CURRENT_TIMESTAMP"'/' $config_file
 
 # Regenerate genesis.ssz with updated timestamp values
-eth2-testnet-genesis deneb \
+eth2-testnet-genesis merge \
   --config "./$config_file" \
   --eth1-config "./$genesis_file" \
   --mnemonics "./mnemonic.yaml" \
