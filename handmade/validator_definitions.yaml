@@ -1,6 +1,0 @@
-- enabled: true
-  voting_public_key: 0xb886c3704ee82131b265d560dec85717b8831404330f1aea24565981c72f35f80b8daa2ff6e9b13b38fd4da4727cad7a
-  description: ''
-  type: local_keystore
-  voting_keystore_path: /data/custom/validators/keystore-m_12381_3600_0_0_0-1720017654.json
-  voting_keystore_password: '12345678'
