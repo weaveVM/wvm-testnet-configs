@@ -14,8 +14,8 @@
     "mergeNetsplitBlock": 0,
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
-    "shanghaiTime": 1722511472,
-    "cancunTime": 1722511536,
+    "shanghaiTime": 1722512425,
+    "cancunTime": 1722512489,
     "depositContractAddress": "0x4242424242424242424242424242424242424242"
   },
   "alloc": {
@@ -91,7 +91,7 @@
   "nonce": "0x1234",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "timestamp": "0x66ab7030",
+  "timestamp": "0x66ab73e9",
 	"number": "0x0",
 	"gasUsed": "0x0",
 	"baseFeePerGas": null,
