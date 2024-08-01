@@ -1,6 +1,6 @@
 {
   "config": {
-    "chainId": 9496,
+    "chainId": 9999777,
     "homesteadBlock": 0,
     "eip150Block": 0,
     "eip155Block": 0,
@@ -14,8 +14,8 @@
     "mergeNetsplitBlock": 0,
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
-    "shanghaiTime": 1722536438,
-    "cancunTime": 1722536502,
+    "shanghaiTime": 1722545329,
+    "cancunTime": 1722545393,
     "depositContractAddress": "0x4242424242424242424242424242424242424242"
   },
   "alloc": {
@@ -91,7 +91,7 @@
   "nonce": "0x1234",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "timestamp": "0x66abd1b6",
+  "timestamp": "0x66abf471",
 	"number": "0x0",
 	"gasUsed": "0x0",
 	"baseFeePerGas": null,
