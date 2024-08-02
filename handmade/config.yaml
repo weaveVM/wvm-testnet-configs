@@ -5,10 +5,10 @@ CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflict
 # Genesis
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
-MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
+MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1722545265
+MIN_GENESIS_TIME: 1722605223
 GENESIS_FORK_VERSION: 0x99000000
 GENESIS_DELAY: 1200
 
@@ -85,8 +85,8 @@ REORG_MAX_EPOCHS_SINCE_FINALIZATION: 2
 
 # Deposit contract
 # ---------------------------------------------------------------
-DEPOSIT_CHAIN_ID: 9496
-DEPOSIT_NETWORK_ID: 9496
+DEPOSIT_CHAIN_ID: 9999777
+DEPOSIT_NETWORK_ID: 9999777
 DEPOSIT_CONTRACT_ADDRESS: 0x4242424242424242424242424242424242424242
 
 
