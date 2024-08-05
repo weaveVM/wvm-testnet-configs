@@ -8,7 +8,7 @@ CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflict
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1722622679
+MIN_GENESIS_TIME: 1722853326
 GENESIS_FORK_VERSION: 0x99000000
 GENESIS_DELAY: 1200
 
