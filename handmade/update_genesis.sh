@@ -36,12 +36,14 @@ sed -i '' 's/"cancunTime".*$/\"cancunTime\": '"$CANCUN_TIME"',/' $genesis_file
 
 # Regenerate genesis.ssz with updated timestamp values
 rm -f genesis.ssz
+rm -f genesis_conensus_output.json
 eth2-testnet-genesis merge \
   --config "./$config_file" \
   --eth1-config "./$genesis_file" \
-  --mnemonics "./mnemonic.yaml" \
+  --mnemonics "./mnemonics.yaml" \
   --state-output "./$genesis_ssz" \
-  --tranches-dir "./tranches"
-
+  --tranches-dir "./tranches" \
+  --additional-validators "validators.txt"
 # Display updated genesis.json
 cat $genesis_file
+zcli pretty bellatrix BeaconState genesis.ssz >> genesis_conensus_output.json

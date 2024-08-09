@@ -1,14 +1,14 @@
 # Extends the mainnet preset
-PRESET_BASE: mainnet
+PRESET_BASE: wvm
 CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflicts with mainnet genesis
 
 # Genesis
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
-MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
+MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1720614340
+MIN_GENESIS_TIME: 1723143200
 GENESIS_FORK_VERSION: 0x99000000
 GENESIS_DELAY: 1200
 
@@ -25,7 +25,7 @@ ALTAIR_FORK_EPOCH: 0
 BELLATRIX_FORK_VERSION: 0x99000002
 BELLATRIX_FORK_EPOCH: 0
 TERMINAL_TOTAL_DIFFICULTY: 0
-TERMINAL_BLOCK_HASH: 0x77658b7e54e6f06537f53248266cbdb5ee143c91dd3dd062b5aa340cc5cefc49
+TERMINAL_BLOCK_HASH: 0x03f274e091164da31d97568ccc17164be13fb337ff45367551273df14823d3c1
 TERMINAL_BLOCK_HASH_ACTIVATION_EPOCH: 0
 
 # Capella
@@ -56,6 +56,9 @@ MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
 SHARD_COMMITTEE_PERIOD: 256
 # 2**11 (= 2,048) Eth1 blocks ~8 hours
 ETH1_FOLLOW_DISTANCE: 128
+SLOTS_PER_EPOCH: 32
+EPOCHS_PER_ETH1_VOTING_PERIOD: 64
+
 
 # Validator cycle
 # ---------------------------------------------------------------
@@ -85,8 +88,8 @@ REORG_MAX_EPOCHS_SINCE_FINALIZATION: 2
 
 # Deposit contract
 # ---------------------------------------------------------------
-DEPOSIT_CHAIN_ID: 9496
-DEPOSIT_NETWORK_ID: 9496
+DEPOSIT_CHAIN_ID: 9999777
+DEPOSIT_NETWORK_ID: 9999777
 DEPOSIT_CONTRACT_ADDRESS: 0x4242424242424242424242424242424242424242
 
 
