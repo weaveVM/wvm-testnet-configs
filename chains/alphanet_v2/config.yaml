@@ -5,12 +5,12 @@ CONFIG_NAME: wvm # needs to exist because of Prysm. Otherwise it conflicts with 
 # Genesis
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
-MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
+MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1729607616
+MIN_GENESIS_TIME: 1729611153
 GENESIS_FORK_VERSION: 0x99000000
-GENESIS_DELAY: 2400
+GENESIS_DELAY: 3000
 
 # Forking
 # ---------------------------------------------------------------
