@@ -1,6 +1,8 @@
 *mnemonic*
 testvalidators/*
 validator*
+bq-config.json
+key.json
 perms*
 .idea
 *.sh
