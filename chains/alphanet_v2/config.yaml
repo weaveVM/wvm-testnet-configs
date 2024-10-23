@@ -1,6 +1,6 @@
 # Extends the mainnet preset
 PRESET_BASE: wvm
-CONFIG_NAME: wvm # needs to exist because of Prysm. Otherwise it conflicts with mainnet genesis
+CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflicts with mainnet genesis
 
 # Genesis
 # ---------------------------------------------------------------
@@ -8,9 +8,9 @@ CONFIG_NAME: wvm # needs to exist because of Prysm. Otherwise it conflicts with 
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1729611153
+MIN_GENESIS_TIME: 1729670219
 GENESIS_FORK_VERSION: 0x99000000
-GENESIS_DELAY: 3000
+GENESIS_DELAY: 1200
 
 # Forking
 # ---------------------------------------------------------------
@@ -49,13 +49,15 @@ EIP7594_FORK_EPOCH: 18446744073709551615
 # 1 second
 SECONDS_PER_SLOT: 1
 # 14 (estimate from Eth1 mainnet)
-SECONDS_PER_ETH1_BLOCK: 1
+SECONDS_PER_ETH1_BLOCK: 2
 # 2**8 (= 256) epochs ~27 hours
 MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
 # 2**8 (= 256) epochs ~27 hours
 SHARD_COMMITTEE_PERIOD: 256
 # 2**11 (= 2,048) Eth1 blocks ~8 hours
 ETH1_FOLLOW_DISTANCE: 128
+SLOTS_PER_EPOCH: 32
+EPOCHS_PER_ETH1_VOTING_PERIOD: 64
 
 # Validator cycle
 # ---------------------------------------------------------------
