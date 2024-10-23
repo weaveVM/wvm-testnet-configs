@@ -8,7 +8,7 @@ CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflict
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1729670219
+MIN_GENESIS_TIME: 1729672258
 GENESIS_FORK_VERSION: 0x99000000
 GENESIS_DELAY: 1200
 
@@ -30,11 +30,11 @@ TERMINAL_BLOCK_HASH_ACTIVATION_EPOCH: 0
 
 # Capella
 CAPELLA_FORK_VERSION: 0x99000003
-CAPELLA_FORK_EPOCH: 2
+CAPELLA_FORK_EPOCH: 1
 
 # DENEB
 DENEB_FORK_VERSION: 0x99000004
-DENEB_FORK_EPOCH: 4
+DENEB_FORK_EPOCH: 2
 
 # Electra
 ELECTRA_FORK_VERSION: 0x99000005
@@ -47,7 +47,7 @@ EIP7594_FORK_EPOCH: 18446744073709551615
 # Time parameters
 # ---------------------------------------------------------------
 # 1 second
-SECONDS_PER_SLOT: 1
+SECONDS_PER_SLOT: 2
 # 14 (estimate from Eth1 mainnet)
 SECONDS_PER_ETH1_BLOCK: 2
 # 2**8 (= 256) epochs ~27 hours
