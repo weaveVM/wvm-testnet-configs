@@ -1,6 +1,6 @@
 # Extends the mainnet preset
 PRESET_BASE: wvm
-CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflicts with mainnet genesis
+CONFIG_NAME: wvmdevnet # needs to exist because of Prysm. Otherwise it conflicts with mainnet genesis
 
 # Genesis
 # ---------------------------------------------------------------
@@ -8,9 +8,9 @@ CONFIG_NAME: wvmtestnet # needs to exist because of Prysm. Otherwise it conflict
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 2
 # Mar-01-2021 08:53:32 AM +UTC
 # This is an invalid valid and should be updated when you create the genesis
-MIN_GENESIS_TIME: 1723739014
+MIN_GENESIS_TIME: 1730192290
 GENESIS_FORK_VERSION: 0x99000000
-GENESIS_DELAY: 2400
+GENESIS_DELAY: 1200
 
 # Forking
 # ---------------------------------------------------------------
@@ -25,7 +25,7 @@ ALTAIR_FORK_EPOCH: 0
 BELLATRIX_FORK_VERSION: 0x99000002
 BELLATRIX_FORK_EPOCH: 0
 TERMINAL_TOTAL_DIFFICULTY: 0
-TERMINAL_BLOCK_HASH: 0x66d4b243e70edb4cbd84373b2b38cc9a6d477343f9c598b9b11aaa7917e151c2
+TERMINAL_BLOCK_HASH: 0x2ce1d634aa0122b90c99746c6afe4d9c8c7a961ccbdd5bd1da09cbcfa37c0b30
 TERMINAL_BLOCK_HASH_ACTIVATION_EPOCH: 0
 
 # Capella
@@ -46,10 +46,10 @@ EIP7594_FORK_EPOCH: 18446744073709551615
 
 # Time parameters
 # ---------------------------------------------------------------
-# 12 seconds
-SECONDS_PER_SLOT: 2
+# 1 second
+SECONDS_PER_SLOT: 1
 # 14 (estimate from Eth1 mainnet)
-SECONDS_PER_ETH1_BLOCK: 2
+SECONDS_PER_ETH1_BLOCK: 1
 # 2**8 (= 256) epochs ~27 hours
 MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
 # 2**8 (= 256) epochs ~27 hours
@@ -58,7 +58,6 @@ SHARD_COMMITTEE_PERIOD: 256
 ETH1_FOLLOW_DISTANCE: 128
 SLOTS_PER_EPOCH: 32
 EPOCHS_PER_ETH1_VOTING_PERIOD: 64
-
 
 # Validator cycle
 # ---------------------------------------------------------------
